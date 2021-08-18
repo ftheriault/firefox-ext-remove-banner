@@ -1,0 +1,20 @@
+{
+
+    "manifest_version": 2,
+    "name": "RemoveBanner",
+    "version": "1.0",
+  
+    "description": "Removes banner preventing reading of some articles",
+  
+    "icons": {
+      "48": "icons/border-48.png"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*.lapresse.ca/*"],
+        "js": ["remove-banner.js"]
+      }
+    ]
+  
+  }
