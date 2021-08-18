@@ -7,7 +7,7 @@
     "description": "Removes banner preventing reading of some articles",
   
     "icons": {
-      "48": "icons/border-48.png"
+      "48": "icons/remove-banner-48.png"
     },
   
     "content_scripts": [
